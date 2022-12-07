@@ -1,6 +1,7 @@
 import React from 'react'
 import StateComponent from '../components/StateComponent'
 import EffectComponent from '../components/EffectComponent'
+import RefComponent from '../components/RefComponent'
 
 const ReferenceScreen = () => {
   return (
@@ -8,6 +9,7 @@ const ReferenceScreen = () => {
         <h1>ReferenceScreen</h1>
         <StateComponent />
         <EffectComponent />
+        <RefComponent />
     </div>
   )
 }
