@@ -10,6 +10,11 @@ const ContextComponent = () => {
         <h4>Name: {state.name}</h4>
         <h4>Count: {state.count}</h4>
         <h4>List: </h4>
+        <ul>
+          {state.list.map((item) => {
+            return <li>{item}</li>
+          })}
+        </ul>
     </div>
   )
 }
