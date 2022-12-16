@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import GlobalContext from '../store/GlobalContext'
 
 const ContextComponent = () => {
-    const {state, dispatch} = useContext(GlobalContext)
+    const {state} = useContext(GlobalContext)
 
   return (
     <div className='card'>
